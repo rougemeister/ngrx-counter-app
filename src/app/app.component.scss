@@ -1,6 +1,5 @@
-div {
+.main {
     width: 100vw;
-    background-color: #33333d;
 }
 
 h1 {
@@ -12,9 +11,12 @@ h1 {
 }
 
 @media screen and (min-width: 480px) {
+
     h1 {
         padding: 15px 0;
         background-color: inherit;
         color: #31c48d;
     }
+
+
   }

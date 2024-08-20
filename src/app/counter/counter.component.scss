@@ -1,14 +1,16 @@
 .counter-container {
+    border-radius: 20px;
     color: #31c48d;
     height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #33333d;
+    overflow: hidden;
+  
 
 }
-.name {
-    font-weight: 700;
-}
+
 
 .top {
     display: flex;
@@ -55,3 +57,27 @@ button {
         fill:#31c48d;
     }
 }
+@media screen and (min-width: 480px) {
+
+    .counter-container {
+       width: 80vw;
+       margin:auto;
+       box-shadow: 0 0 7px rgb(20, 20, 20);
+    }
+
+    .counter {
+        font-size: 250px;
+    }
+
+
+  }
+
+
+  @media screen and (min-width: 840px) {
+    .counter-container {
+       width: 55vw;
+    }
+
+
+
+  }
