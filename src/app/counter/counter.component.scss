@@ -1,0 +1,57 @@
+.counter-container {
+    color: #31c48d;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.name {
+    font-weight: 700;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+// .buttons {
+//     display: flex;
+//     width: 100%;;
+//     background-color: blue;
+//     height: 100px;
+// }
+
+button {
+    width: 50%;
+    height: 150px;
+    background-color: inherit;
+    border: none;
+}
+
+
+.increase {
+    border-top: 0.5px solid #6a6a76;
+    border-left: 0.5px solid #6a6a76;
+}
+
+
+.decrease {
+    border-top: 0.5px solid #6a6a76;
+}
+
+.counter {
+ 
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.increase:hover,
+.decrease:hover {
+    background-color: #393944;
+    svg {
+        fill:#31c48d;
+    }
+}
