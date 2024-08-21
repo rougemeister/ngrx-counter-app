@@ -3,7 +3,7 @@
 //LAYOUT
 .counter-container {
     color: #31c48d;
-    height: 65vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -85,6 +85,7 @@ button {
 @media screen and (min-width: 480px) {
 
     .counter-container {
+       height: 65vh;
        width: 80vw;
        margin:auto;
        box-shadow: 0 0 7px rgb(20, 20, 20);
