@@ -8,8 +8,8 @@
     <div class="counterModal">
       <div class="modal-content">
         <p>Set counter to new value</p>
-        <input type="number" name="counter" id="counter" min="0" value="0">
-        <button (click)="closeCounterModal()">Add</button>
+        <input type="number" name="counter" id="counter" min="0" value="0" [(ngModel)]="inputValue" >
+        <button  (click)="updateCounter()">Add</button>
       </div>
     </div>
 }
