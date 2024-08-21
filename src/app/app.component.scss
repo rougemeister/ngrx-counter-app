@@ -16,15 +16,16 @@ h1 {
 
    h1 {
         text-align: center;
-        background-color: #31c48d;
+        background-color: inherit;
+        border: 3px solid #31c48d;
         padding: 15px 0;
         margin: 15px auto;
-        width: 400px;
+        width: 300px;
         border-radius: 15px;
-        text-shadow: 0 0 5px gray;
+        text-shadow: none;
         box-shadow: 0 0 5px rgb(43, 42, 42);
         // background-color: inherit;
-        color: white;
+        color: #31c48d;
 }
 
     .counter {
