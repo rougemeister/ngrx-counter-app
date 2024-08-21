@@ -4,7 +4,7 @@ import { provideRouter } from '@angular/router';
 import { routes } from './app.routes';
 import { provideState, provideStore } from '@ngrx/store';
 import { count } from 'rxjs';
-import { countReducer } from './counter/state/counter.reducer'; 
+import { countReducer } from './state/counter.reducer'; 
 
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes), provideStore(),provideState({
