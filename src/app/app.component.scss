@@ -44,11 +44,11 @@ h1 {
     z-index: -1; /* Place the backdrop behind the modal */
   }
 .modal-content {
-    top: 14.5em;
-    left: 4em;
+    top: 35vh;
+    left: 11%;
     padding: 20px;
     height: 150px;
-    width: 250px;
+    width: 320px;
     justify-content: space-between;
     position: fixed;
     background-color: white;
@@ -62,7 +62,7 @@ h1 {
         font-weight: 800;
         color: white;
     }
-  }
+}
 
 
 
@@ -79,7 +79,7 @@ button {
     border: none;
     border-radius: 5px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 376px) {
 
    h1 {
         text-align: center;
@@ -97,6 +97,11 @@ button {
 
     .counter {
         font-size: 250px;
+    }
+
+    .modal-content {
+        top: 35vh;
+        left: 28vw;
     }
 
 

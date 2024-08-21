@@ -5,21 +5,21 @@
 
 
   @if(showCounterModal){
-  <div class="counterModal">
-    <div class="modal-content">
-      <p>Set counter to new value</p>
-      <input type="number" name="counter" id="counter">
-      <button (click)="closeCounterModal()">Add</button>
+    <div class="counterModal">
+      <div class="modal-content">
+        <p>Set counter to new value</p>
+        <input type="number" name="counter" id="counter" min="0" value="0">
+        <button (click)="closeCounterModal()">Add</button>
+      </div>
     </div>
-  </div>
 } @else if(showIntervalModal) {
-  <div class="intervalModal">
-    <div class="modal-content">
-      <p>Set interval to ...</p>
-      <input type="number" name="interval" id="interval">
-      <button (click)="closeIntervalModal()">Set interval</button>
+    <div class="intervalModal">
+      <div class="modal-content">
+        <p>Set interval to ...</p>
+        <input type="number" name="interval" id="interval" min="0" [value]="(count$ | async) || 0">
+        <button (click)="closeIntervalModal()">Set interval</button>
+      </div>
     </div>
-  </div>
 }
   
 
