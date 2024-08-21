@@ -12,14 +12,6 @@
         <button (click)="closeCounterModal()">Add</button>
       </div>
     </div>
-} @else if(showIntervalModal) {
-    <div class="intervalModal">
-      <div class="modal-content">
-        <p>Set interval to ...</p>
-        <input type="number" name="interval" id="interval" min="0" [value]="(count$ | async) || 0">
-        <button (click)="closeIntervalModal()">Set interval</button>
-      </div>
-    </div>
 }
   
 
