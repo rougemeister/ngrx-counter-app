@@ -15,6 +15,8 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+
+  title = 'ngrx-counter-app';
   showCounterModal = false;
   showIntervalModal = false;
 
